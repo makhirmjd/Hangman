@@ -25,6 +25,132 @@
                 Text="Reset"
                 WidthRequest="100" />
         </VerticalStackLayout>
+        <FlexLayout
+            Grid.Row="1"
+            HorizontalOptions="Center"
+            JustifyContent="SpaceEvenly"
+            Wrap="Wrap">
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+            <Button
+                BackgroundColor="Navy"
+                HeightRequest="50"
+                Text="A"
+                WidthRequest="50" />
+        </FlexLayout>
     </Grid>
 
 </ContentPage>
