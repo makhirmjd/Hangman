@@ -9,8 +9,8 @@
             <Label
                 FontAttributes="Bold"
                 HorizontalOptions="Center"
-                Text="Errors: 0 of 6" />
-            <Image HeightRequest="200" Source="img0.jpg" />
+                Text="{Binding GameStatus}" />
+            <Image HeightRequest="200" Source="{Binding CurrentImage}" />
             <Label
                 FontSize="40"
                 HorizontalOptions="Center"
