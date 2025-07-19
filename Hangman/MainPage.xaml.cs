@@ -129,6 +129,7 @@ namespace Hangman
             if (Spotlight.Replace(" ", "") == answer)
             {
                 Message = "You Won!!";
+                ToggleLetters();
             }
         }
 
@@ -137,6 +138,15 @@ namespace Hangman
             if (mistakes >= MaxWrong)
             {
                 Message = $"You Lost!! The word was: {answer}";
+                ToggleLetters();
+            }
+        }
+
+        private void ToggleLetters(bool enable = false)
+        {
+            foreach (Button button in LettersContainer.Children.OfType<Button>())
+            {
+                button.IsEnabled = enable;
             }
         }
 
@@ -154,6 +164,18 @@ namespace Hangman
                 button.IsEnabled = false;
                 HandleGuess(letter[0]);
             }
+        }
+
+        private void Reset_Clicked(object sender, EventArgs e)
+        {
+            guessed.Clear();
+            Message = string.Empty;
+            mistakes = 0;
+            CurrentImage = "img0.jpg";
+            ToggleLetters(true);
+            PickWord();
+            CalculateWord(answer, guessed);
+            UpdateStatus();
         }
     }
 }
